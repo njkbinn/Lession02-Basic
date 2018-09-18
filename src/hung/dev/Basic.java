@@ -4,24 +4,20 @@ public class Basic {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		double a=6;
-		double b=10;
-		double c=4;
-		double x,x1,x2;
-		double delta;
-		delta = b*b-4*a*c;
-			if(delta>0) {
-		    x1=(b-Math.sqrt(delta)/2*a);
-		    System.out.println("nghiem x1:"+x1);
-		    x2=(b+Math.sqrt(delta)/2*a);
-		    System.out.println("nghiem x2:"+x2);
-		     		}
-			 else if(delta <0) {
-				 System.out.println("phuong trinh co nghiem");
-			 }
-			 else if(delta ==0) {
-				 x=-b/2*a;
-				 System.out.println("nghiem kep x:"+x);
-			 }
+		int n = 4;
+		switch(n)
+		{
+			case 0 : System.out.println("zero!"); break;
+			case 1 : System.out.println("one!"); break;
+			case 2 : System.out.println("two!"); break;
+			case 3 : System.out.println("three!"); break;
+			case 4 : System.out.println("four!"); break;
+			case 5 : System.out.println("five!"); break;
+			case 6 : System.out.println("six!"); break;
+			case 7 : System.out.println("seven!"); break;
+			case 8 : System.out.println("eight!"); break;
+			case 9 : System.out.println("nine!"); break;
+		
 		}
+	}
 }
